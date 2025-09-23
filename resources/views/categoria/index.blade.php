@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card">
-                        <div class="container">
+                        <div class="card-body">
 
                             <a href="{{ route('categorias.create') }}" class="btn btn-primary mb-3">Nueva Categoría</a>
 
@@ -64,8 +64,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
-                            <br>
-                            <br>
+                            <br/>
                         </div>
                     </div>
                 </div>
