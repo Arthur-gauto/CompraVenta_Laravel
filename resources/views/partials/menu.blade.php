@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="widgets.html">
+                    <a class="nav-link menu-link" href="{{ route('suppliers.index') }}">
                         <i class="ri-honour-line"></i> <span>Proveedor</span>
                     </a>
                 </li>
