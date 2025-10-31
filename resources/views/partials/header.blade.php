@@ -236,7 +236,7 @@
                         <span class="d-flex align-items-center">
                             {{-- Avatar del usuario logueado --}}
                             <img class="rounded-circle header-profile-user"
-                                src="{{ asset(Auth::user()->avatar ?? 'assets/images/users/default.jpg') }}"
+                                src="{{ asset('storage/' . Auth::user()->photo ?? 'assets/images/users/default.jpg') }}"
                                 alt="Avatar Usuario">
 
                             <span class="text-start ms-xl-2">
